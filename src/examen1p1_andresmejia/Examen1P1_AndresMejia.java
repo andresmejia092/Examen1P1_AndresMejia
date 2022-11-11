@@ -76,7 +76,7 @@ public class Examen1P1_AndresMejia {
         for(int i=1; i<=n; i++){
             int r=n%i;
             if(r==0){
-                if(primo(i)==true || i==n){
+                if(primo(i)==true){
                     acum=acum+i+",";
                 }
                 else{
